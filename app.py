@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import mysql.connector
-db_info = {"user": "anonymous", "host": "ensembldb.ensembl.org", "port": 3306,
-           "db": "homo_sapiens_core_91_38"}
+db_info = {"user": "anonymous", "host": "ensembldb.ensembl.org",
+           "port": 3306, "db": "homo_sapiens_core_91_38"}
 
 app = Flask(__name__)
 
